@@ -51,4 +51,4 @@ if prompt: # 입력한 문자열이 있는 경우(None도 아니고 빈 문자�
             {"callbacks":[callback]},
         )
         
-        st.markdown(response) # 응답을 마크다운으로 정형화해 표시
+        st.markdown(response["output"]) # 응답을 마크다운으로 정형화해 표시
